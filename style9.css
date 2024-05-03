@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #DD5746;
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    color:black;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color:#8B322C;
+    text-decoration: underline;
+}
+section{
+    padding: 5% 5%;
+}
+.main-moment{
+    display: flex;
+    padding : 45px 6%;
+}
+.main-text{
+    color: #153448;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+    font-weight: 500;
+    margin: 17px 0 10px;
+}
+.gambar{
+    position: center;
+    transition: all .40s;
+}
+.gambar img{
+    width: 30%;
+    height: auto;
+    transition: all .40s;
+}
+.text {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+header.sticky{
+    background: white;
+    padding: 16px 0%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
